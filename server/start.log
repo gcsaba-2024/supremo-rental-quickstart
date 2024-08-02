@@ -1,0 +1,2800 @@
+
+> server@1.0.0 start
+> node -r dotenv/config server
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/home/opc/reactapp/server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/opc/reactapp/server/server.js:304:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.10.0
+
+> server@1.0.0 start
+> node -r dotenv/config server
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/home/opc/reactapp/server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/opc/reactapp/server/server.js:304:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1899:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.10.0
+
+> server@1.0.0 start
+> node -r dotenv/config server
+
+Proxy server running on http://localhost:5000
+
+> server@1.0.0 start
+> node -r dotenv/config server
+
+Proxy server running on http://localhost:5000
+
+> server@1.0.0 start
+> node -r dotenv/config server
+
+Proxy server running on http://localhost:5000
+
+> server@1.0.0 start
+> node -r dotenv/config server
+
+Proxy server running on http://localhost:5000
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  []
+Before fetch request
+{"code":-1,"msg":"Authentication failed!"}
+ with user id  { code: -1, msg: 'Authentication failed!', userid: 'joe' }
+Before fetch request
+{"code":-1,"msg":"Authentication failed!"}
+ with user id  { code: -1, msg: 'Authentication failed!', userid: 'joe' }
+Before fetch request
+{"code":-1,"msg":"Authentication failed!"}
+ with user id  { code: -1, msg: 'Authentication failed!', userid: 'joe' }
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]
+{"userid":"samy","fullname":"Sam Yin","email":"samyin@retailertest.com","mobile":"654731234567","country":"Singapore","membersince":"Mon Sep 18 2023 00:00:00 GMT+0000 (Coordinated Universal Time)","password":"123456"}
+list of orders  [{"orderid":"O-16332900","carid":"t002","userid":"JohnC","duration":1,"ordered":true,"order_when":"2024-01-09T09:26:34.257Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-10T00:00:00.000Z","end_date":"2024-01-11T00:00:00.000Z"},{"orderid":"O-10550862","carid":"t001","userid":"JohnC","duration":2,"ordered":true,"order_when":"2024-01-03T08:42:41.722Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-05T00:00:00.000Z"},{"orderid":"O-17618038","carid":"t001","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:59:14.956Z","name":"Corolla","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-14332978","carid":"t002","userid":"JohnC","duration":3,"ordered":true,"order_when":"2024-01-03T06:22:57.709Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-03T00:00:00.000Z","end_date":"2024-01-06T00:00:00.000Z"},{"orderid":"O-10011977","carid":"t001","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-20T06:34:01.161Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-21T00:00:00.000Z"},{"orderid":"O-10549846","carid":"t001","userid":"JohnC","duration":0,"ordered":true,"order_when":"2023-12-19T22:03:38.852Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-20T00:00:00.000Z","end_date":"2023-12-20T00:00:00.000Z"},{"orderid":"O-12557895","carid":"t013","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-19T21:49:59.793Z","name":"HRV","brand":"Honda","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-11324181","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T19:36:04.984Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-28T00:00:00.000Z","end_date":"2023-12-29T00:00:00.000Z"},{"orderid":"O-14697886","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:25:42.259Z","name":"Hilander","brand":"Toyoto","from_date":"2024-01-02T00:00:00.000Z","end_date":"2024-01-03T00:00:00.000Z"},{"orderid":"O-13983367","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-19T04:24:42.142Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-12261628","carid":"t009","userid":"JohnC","duration":1,"ordered":true,"order_when":"2023-12-18T21:21:10.656Z","name":"Elantra","brand":"Hyundai","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-10732413","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T21:12:16.069Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-27T00:00:00.000Z","end_date":"2023-12-28T00:00:00.000Z"},{"orderid":"O-13488688","carid":"t002","userid":"hysun","duration":3,"ordered":true,"order_when":"2023-12-18T18:03:20.597Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-11739925","carid":"t001","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:27:34.968Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-26T00:00:00.000Z","end_date":"2023-12-27T00:00:00.000Z"},{"orderid":"O-15811351","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:15:50.627Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T00:00:00.000Z","end_date":"2023-12-18T00:00:00.000Z"},{"orderid":"O-16632574","carid":"t002","userid":"samy","duration":1,"ordered":true,"order_when":"2023-12-18T14:14:24.892Z","name":"Hilander","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-18T18:00:00.000Z"},{"orderid":"O-16955473","carid":"t002","userid":"hysun","duration":1,"ordered":true,"order_when":"2023-12-18T13:58:32.918Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T18:00:00.000Z"},{"orderid":"O-15635540","carid":"t002","userid":"hysun","duration":6,"ordered":false,"order_when":"2023-12-18T06:30:59.553Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T13:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"},{"orderid":"O-17065044","carid":"t002","userid":"hysun","duration":8,"ordered":true,"order_when":"2023-12-18T06:30:41.564Z","name":"Corolla","brand":"Toyoto","from_date":"2023-12-17T11:00:00.000Z","end_date":"2023-12-17T19:00:00.000Z"}]
+Post filter list of orders  [
+  {
+    orderid: 'O-11324181',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T19:36:04.984Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-28T00:00:00.000Z',
+    end_date: '2023-12-29T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-14697886',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:25:42.259Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2024-01-02T00:00:00.000Z',
+    end_date: '2024-01-03T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-13983367',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-19T04:24:42.142Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-10732413',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T21:12:16.069Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-27T00:00:00.000Z',
+    end_date: '2023-12-28T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-11739925',
+    carid: 't001',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:27:34.968Z',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    from_date: '2023-12-26T00:00:00.000Z',
+    end_date: '2023-12-27T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-15811351',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:15:50.627Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T00:00:00.000Z',
+    end_date: '2023-12-18T00:00:00.000Z'
+  },
+  {
+    orderid: 'O-16632574',
+    carid: 't002',
+    userid: 'samy',
+    duration: 1,
+    ordered: true,
+    order_when: '2023-12-18T14:14:24.892Z',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    from_date: '2023-12-17T13:00:00.000Z',
+    end_date: '2023-12-18T18:00:00.000Z'
+  }
+]
+response.data get all cars  [
+  {
+    carid: 't001',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't002',
+    name: 'Hilander',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 15,
+    popular: true
+  },
+  {
+    carid: 't003',
+    name: 'Alphard',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't004',
+    name: 'Yuan',
+    brand: 'BYD',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Singapore',
+    price: '35',
+    avail: 30,
+    popular: false
+  },
+  {
+    carid: 't005',
+    name: 'RAV4',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't006',
+    name: 'Corolla',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Singapore',
+    price: '12',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't007',
+    name: 'Camry',
+    brand: 'Toyoto',
+    fueltype: 'Hybrid',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't008',
+    name: 'Yarris',
+    brand: 'Toyoto',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney',
+    price: '12',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't009',
+    name: 'Elantra',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't010',
+    name: 'i30',
+    brand: 'Hyundai',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '12',
+    avail: 35,
+    popular: true
+  },
+  {
+    carid: 't011',
+    name: 'Kona',
+    brand: 'Hyundai',
+    fueltype: 'Hybrid',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 15,
+    popular: false
+  },
+  {
+    carid: 't012',
+    name: 'CRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '30',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't013',
+    name: 'HRV',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '25',
+    avail: 12,
+    popular: false
+  },
+  {
+    carid: 't014',
+    name: 'City',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't015',
+    name: 'Civic',
+    brand: 'Honda',
+    fueltype: 'petrol',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: false
+  },
+  {
+    carid: 't016',
+    name: 'S',
+    brand: 'Tesla',
+    fueltype: 'EMV',
+    vehicletype: 'sedan',
+    locations: 'Sydney, Singapore',
+    price: '30',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't017',
+    name: 'Baleno',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  },
+  {
+    carid: 't018',
+    name: 'Swift',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'Sedan',
+    locations: 'Mumbai',
+    price: '15',
+    avail: 30,
+    popular: true
+  },
+  {
+    carid: 't019',
+    name: 'VITARA',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '25',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't020',
+    name: 'Ignis',
+    brand: 'Suzuki',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai',
+    price: '20',
+    avail: 10,
+    popular: false
+  },
+  {
+    carid: 't021',
+    name: 'ASX',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '20',
+    avail: 20,
+    popular: true
+  },
+  {
+    carid: 't022',
+    name: 'Outlander',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 10,
+    popular: true
+  },
+  {
+    carid: 't023',
+    name: 'Pajero',
+    brand: 'Mitsubishi',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '50',
+    avail: 5,
+    popular: false
+  },
+  {
+    carid: 't024',
+    name: 'Sorento',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'MPV',
+    locations: 'Sydney',
+    price: '50',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't025',
+    name: 'Sportage',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'SUV',
+    locations: 'Sydney, Singapore',
+    price: '35',
+    avail: 12,
+    popular: true
+  },
+  {
+    carid: 't026',
+    name: 'EV9',
+    brand: 'Kia',
+    fueltype: 'EMV',
+    vehicletype: 'SUV',
+    locations: 'Sydney',
+    price: '35',
+    avail: 7,
+    popular: false
+  },
+  {
+    carid: 't027',
+    name: 'Cerato',
+    brand: 'Kia',
+    fueltype: 'petrol',
+    vehicletype: 'Hatch',
+    locations: 'Sydney, Mumbai, Singapore',
+    price: '15',
+    avail: 25,
+    popular: true
+  }
+]

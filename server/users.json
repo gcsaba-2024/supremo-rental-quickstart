@@ -1,0 +1,65 @@
+[
+    {
+      "id": "usr001",
+      "userid": "JohnC",
+      "fullname": "John Citizen",
+      "email": "john.citizen@test.com",
+      "mobile": 614201234567,
+      "country": "Australia",
+      "membersince": "2023-07-17"
+    },
+    {
+      "id": "usr002",
+      "userid": "markg",
+      "fullname": "Mark Gibston",
+      "email": "mark.gibston@demo.com",
+      "mobile": 614691234567,
+      "country": "Australia",
+      "membersince": "2023-08-27"
+    },
+    {
+      "id": "usr003",
+      "userid": "samy",
+      "fullname": "Sam Yin",
+      "email": "samyin@retailertest.com",
+      "mobile": 654731234567,
+      "country": "Singapore",
+      "membersince": "2023-09-18"
+    },
+    {
+      "id": "usr004",
+      "userid": "davidp",
+      "fullname": "David Pang",
+      "email": "david.pang@dummy.com",
+      "mobile": 652031234567,
+      "country": "Singapore",
+      "membersince": "2023-11-07"
+    },
+    {
+      "id": "usr005",
+      "userid": "thussian",
+      "fullname": "Thair Hussain",
+      "email": "thair.hussain@demo.com",
+      "mobile": 919926123456,
+      "country": "India",
+      "membersince": "2023-10-19"
+    },
+    {
+      "id": "usr006",
+      "userid": "sarag",
+      "fullname": "Sara Ghosh",
+      "email": "sara.ghosh@test.com",
+      "mobile": 919870123456,
+      "country": "India",
+      "membersince": "2023-07-02"
+    },
+    {
+      "id": "usr007",
+      "userid": "hysun",
+      "fullname": "Hysun He",
+      "email": "hysun.he@oracle.com",
+      "mobile": "18666xx58xx",
+      "country": "China",
+      "membersince": "2023-12-01T00:00:00.000Z"
+  }
+  ]
