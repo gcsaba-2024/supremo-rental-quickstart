@@ -142,7 +142,7 @@ const TopNavBarN = ({ onLogout, userJsonVal, bookingCount, clearFilters }) => {
           </Modal.Header>
           <Modal.Body>
             <iframe
-              src="http://129.154.234.109:3000/chat" // Replace with the URL you want to embed
+              src="http://150.136.251.31:3000/chat" // Replace with the URL you want to embed
               width="100%"
               height="100%"
               frameBorder="0"
